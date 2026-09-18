@@ -1,0 +1,7 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://churn-model-demo-bucket
+    endpointurl = http://localhost:4566
+    access_key_id = test
+    secret_access_key = test
